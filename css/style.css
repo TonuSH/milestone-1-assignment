@@ -122,14 +122,13 @@ nav .btn {
 }
 #note .note-container .note-info {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 24px;
 }
 #note .note-container .note-info .note-card {
   background: #ffffff;
   box-shadow: 0 0 8px 0 #00000000;
   border-radius: 8px;
-  padding: 24px;
   text-align: center;
 }
 #note .note-container .note-info .note-card .icon {
@@ -140,7 +139,7 @@ nav .btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 24px;
+  margin: 70px auto 24px;
 }
 #note .note-container .note-info .note-card img {
   width: 32px;
@@ -149,11 +148,13 @@ nav .btn {
   font-size: 24px;
   padding: 16px;
   color: #001931;
+  font-weight: 600;
 }
 #note .note-container .note-info .note-card p {
   font-size: 16px;
   color: #627382;
   padding-bottom: 22px;
+  font-weight: 400;
 }
 /* solution section css start */
 #solution {
@@ -192,6 +193,7 @@ nav .btn {
   font-size: 16px;
   line-height: 20px;
   color: #001931;
+  padding-bottom: 16px;
 }
 #btm-footer {
   padding: 120px 0;
@@ -216,6 +218,8 @@ nav .btn {
   background-color: #30b868;
   padding: 16px;
   border: none;
+  font-size: 16px;
+  font-weight: 600;
   border-radius: 4px;
   color: #ffffff;
 }
@@ -264,12 +268,12 @@ footer {
 footer hr {
   margin: 80px auto 30px;
   border: none;
-  height:1px;
-  background-color:#414141;
+  height: 1px;
+  background-color: #414141;
 }
-footer .footer-bottom{
-    text-align: center;
-    font-size: 16px;
-    color:#627382;
-    padding-bottom: 30px;
+footer .footer-bottom {
+  text-align: center;
+  font-size: 16px;
+  color: #627382;
+  padding-bottom: 30px;
 }
