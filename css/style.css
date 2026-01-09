@@ -13,9 +13,7 @@
   max-width: 1145px;
   margin: 0 auto;
 }
-.text-center {
-  text-align: center;
-}
+
 /* header section css */
 header {
   background-color: #ffffff;
@@ -46,6 +44,11 @@ nav .btn {
   border-radius: 4px;
   color: #ffffff;
 }
+nav .btn:hover{
+    background-color: #f95555;
+    transition: 0.2s;
+    cursor:pointer;
+}
 /* banner section css */
 #banner {
   background-image: url(../assets/hero-bg.png);
@@ -63,6 +66,15 @@ nav .btn {
   border: none;
   border-radius: 1000px;
   margin-bottom: 16px;
+}
+#banner .banner-container .banner-btn button:hover,
+#btm-footer .section-container #bottom-btn:hover,
+#banner .banner-container .section-btn #btn1:hover,
+#banner .banner-container .section-btn #btn2:hover
+{
+    background-color:#001931;
+    transition: 0.5s;
+    color:#ffffff;
 }
 #banner .banner-container .banner-btn button i {
   color: #30b868;
@@ -90,6 +102,7 @@ nav .btn {
   color: #ffffff;
   border-radius: 4px;
 }
+
 #banner .banner-container .section-btn #btn2 {
   background-color: transparent;
   padding: 12px 16px;
@@ -101,6 +114,7 @@ nav .btn {
   border-radius: 4px;
   margin-left: 16px;
 }
+
 /* note section css start */
 #note {
   padding: 48px 0 0;
@@ -223,6 +237,7 @@ nav .btn {
   border-radius: 4px;
   color: #ffffff;
 }
+
 #btm-footer .section-container #free {
   font-size: 16px;
   color: #627382;
