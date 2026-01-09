@@ -155,3 +155,41 @@ nav .btn {
   color: #627382;
   padding-bottom: 22px;
 }
+/* solution section css start */
+#solution {
+  padding-top: 120px;
+}
+#solution .solution-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+#solution .solution-container .solution-bg img {
+  width: 600px;
+}
+#solution .solution-container .solution-content h4 {
+  font-size: 16px;
+  color: #30b868;
+  line-height: 20px;
+}
+#solution .solution-container .solution-content h2 {
+  font-size: 48px;
+  color: #001931;
+  padding: 16px 0;
+}
+#solution .solution-container .solution-content p {
+  font-size: 16px;
+  color: #627382;
+  padding-bottom: 40px;
+}
+#solution .solution-container .solution-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+#solution .solution-container .solution-content ul li {
+  display: flex;
+  gap: 6px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #001931;
+}
