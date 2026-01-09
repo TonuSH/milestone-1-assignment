@@ -101,3 +101,57 @@ nav .btn {
   border-radius: 4px;
   margin-left: 16px;
 }
+/* note section css start */
+#note {
+  padding: 48px 0 0;
+  background-color: #f6f6f6;
+}
+#note .note-container {
+  text-align: center;
+}
+#note .note-container .section-heading h2 {
+  font-size: 48px;
+  padding-bottom: 16px;
+  color: #001931;
+}
+#note .note-container .section-heading p {
+  font-size: 16px;
+  color: #627382;
+  padding-bottom: 44px;
+  line-height: 20px;
+}
+#note .note-container .note-info {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+#note .note-container .note-info .note-card {
+  background: #ffffff;
+  box-shadow: 0 0 8px 0 #00000000;
+  border-radius: 8px;
+  padding: 24px;
+  text-align: center;
+}
+#note .note-container .note-info .note-card .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f95555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+}
+#note .note-container .note-info .note-card img {
+  width: 32px;
+}
+#note .note-container .note-info .note-card h3 {
+  font-size: 24px;
+  padding: 16px;
+  color: #001931;
+}
+#note .note-container .note-info .note-card p {
+  font-size: 16px;
+  color: #627382;
+  padding-bottom: 22px;
+}
