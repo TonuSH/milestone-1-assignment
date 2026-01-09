@@ -1,0 +1,103 @@
+/*common css code*/
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 85%;
+  max-width: 1145px;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+/* header section css */
+header {
+  background-color: #ffffff;
+  padding-top: 24px;
+}
+/* nav section css style start */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .menu {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+  align-items: center;
+}
+nav .menu a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+nav .btn {
+  padding: 12px 16px;
+  background-color: #30b868;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+}
+/* banner section css */
+#banner {
+  background-image: url(../assets/hero-bg.png);
+}
+#banner .banner-container {
+  width: 85%;
+  max-width: 1145px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 115px 120px 180px;
+}
+#banner .banner-container .banner-btn button {
+  padding: 8px 12px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 1000px;
+  margin-bottom: 16px;
+}
+#banner .banner-container .banner-btn button i {
+  color: #30b868;
+}
+#banner .banner-container h1 .top {
+  color: #ffffff;
+  font-size: 72px;
+}
+#banner .banner-container h1 .bottom {
+  color: #30b868;
+  font-size: 72px;
+}
+#banner .banner-container p {
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 16px 0 32px;
+}
+#banner .banner-container .section-btn #btn1 {
+  background-color: #30b868;
+  padding: 12px 18px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 4px;
+}
+#banner .banner-container .section-btn #btn2 {
+  background-color: transparent;
+  padding: 12px 16px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  margin-left: 16px;
+}
